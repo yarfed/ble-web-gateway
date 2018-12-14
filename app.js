@@ -15,7 +15,7 @@ noble.on('stateChange', function(state) {
   if (peripheral.id === peripheralIdOrAddress || peripheral.address === peripheralIdOrAddress) {
     console.log(peripheral);
      
- 
+ //jjjj
     } 
 
   });

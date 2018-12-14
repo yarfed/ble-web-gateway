@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yarfed/ble-web-gateway/issues"
   },
-  "homepage": "https://github.com/yarfed/ble-web-gateway#readme"
+  "homepage": "https://github.com/yarfed/ble-web-gateway#readme",
+  "dependencies": {
+    "noble": "^1.9.1"
+  }
 }

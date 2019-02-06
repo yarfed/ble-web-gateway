@@ -1,7 +1,7 @@
 console.log("fuck");
 var noble = require('noble');
 var peripheralIdOrAddress='00158700bc6f';
-
+//comment
 noble.on('stateChange', function(state) {
   if (state === 'poweredOn') {
     noble.startScanning();
@@ -15,7 +15,7 @@ noble.on('stateChange', function(state) {
   if (peripheral.id === peripheralIdOrAddress || peripheral.address === peripheralIdOrAddress) {
     console.log(peripheral);
      
- //jjjj
+ //jj
     } 
 
   });
